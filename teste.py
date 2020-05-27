@@ -1,3 +1,3 @@
-from fun.estetica import colorizar
-
-colorizar('gay', 'normal', 'vermelho', 'branco')
+import funcoes.estetica.cores as cr
+print(cr.vermelho('eu sou brocha'))
+input()
